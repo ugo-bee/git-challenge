@@ -49,32 +49,52 @@ body {
 }
 
 .profile {
-  background-color: rgba(255, 255, 255,.5);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(37,35,92);
+  box-shadow: 0 4px 30px rgba(234, 209, 62, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   margin: 3rem 0;
+  border-radius: 3rem;
+  padding: 3rem;
   max-width: 28rem;
   min-width: 28rem;
   border-radius: 1rem;
 }
 
 .profile__image {
+  margin: 2rem;
   height: 8rem;
   border-radius: 50%;
+  padding: 0.6rem;
+  border: 0.3rem solid yellow;
 }
 
 .profile__name {
+  font-size: 4rem;
+  color: white;
+
 }
 
 .profile__info {
+  color: rgb(102, 97, 237);
+  font-size: 2.5rem;
 }
 
 .profile__bio {
-
+  margin: 2rem;
+  color: white;
+  font-size: 2.1rem;
 }
 
-.profile__link:link,
-.profile__link:visited {
-
+.profile_link:link, .profile__link:visited  {
+  margin: 2rem;
+  color: white;
+  background-color: rgb(102, 97, 237);
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  
 }
