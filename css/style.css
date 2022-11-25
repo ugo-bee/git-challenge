@@ -40,6 +40,7 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
+  flex-flow: row;
   flex-wrap: wrap;
   max-width: 130rem;
   justify-content: space-around;
@@ -53,7 +54,8 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   margin: 3rem 0;
-  width: 23%;
+  max-width: 28rem;
+  min-width: 28rem;
   border-radius: 1rem;
 }
 
@@ -69,8 +71,10 @@ body {
 }
 
 .profile__bio {
+
 }
 
 .profile__link:link,
 .profile__link:visited {
+
 }
