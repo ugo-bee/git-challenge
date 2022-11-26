@@ -166,3 +166,25 @@ body {
 }
 
 /* End of social media icons */
+
+#Kizito-Chinazo{
+  background-color: var(--white);
+}
+#Kizito-Chinazo .profile__name{
+  color: black;
+}
+#Kizito-Chinazo .profile__info{
+  color: var(--purple-light);
+}
+#Kizito-Chinazo .profile__bio{
+  color: var(--purple-dark);
+}
+#Kizito-Chinazo .profile__link{
+  background-color: var(--purple-dark);
+}
+#Kizito-Chinazo .media_icons > * {
+  color: var(--purple-dark);
+}
+#Kizito-Chinazo .profile__image{
+  background-color: var(--purple-dark);
+}
